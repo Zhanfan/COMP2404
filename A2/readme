@@ -1,0 +1,44 @@
+ASSIGNMENT 1 - COMP 2404
+
+PREAMBLE
+------------------------------------------------------------------------------------------------
+Authors: Emil Aite and Zhanfan Wang
+
+Purpose: Modifying the base code to dynamically allocate memory, as well as adding new features 
+and modifying the old ones to work with dynamically allocated memory.
+
+List of Files:
+
+makefile
+
+List of Source Files:
+Array.cc
+main.cc
+Recipe.cc
+RecipeManager.cc
+UImanager.cc
+
+List of Header Files:
+Array.h
+Recipe.h
+defs.h
+RecipeManager.h
+UImanager.h
+------------------------------------------------------------------------------------------------
+
+Compilation Command: 
+    Use the terminal
+    Go to the directory the program is in
+    Type make
+
+Launch Command:
+    After compilation, type ./a1 or use valgrind ./a1 to check for memory leaks
+
+Operating Instruction:
+    Enter the numbers indicated on the screen to choose your action.
+    (1) is to add recipes
+    (2) is to view all recipe names
+    (3) is to view recipe ingredients and instructions
+    (0) is to exit the program
+
+ 
